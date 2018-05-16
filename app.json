@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "SelveLeidja App",
+    "icon": "./src/selveicon.png",
+    "slug": "selveleidja",
+    "splash": {
+      "backgroundColor": "#353535",
+      "image": "./src/selvelogo.png"
+    },
+    "version": "1.0.0",
+    "sdkVersion": "27.0.0",
+    "ios": {
+      "bundleIdentifier": "com.selveleidja.app",
+      "config": {
+        "googleMapsApiKey": "AIzaSyBwBmaaNBEKUKvtSTrokj0IQpk59v0hUDE"
+      }
+    },
+    "android": {
+      "package": "com.selveleidja.app",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBwBmaaNBEKUKvtSTrokj0IQpk59v0hUDE"
+        }
+      }
+    }
+  }
+
+}
